@@ -1,0 +1,11 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/about.html", "destination": "/#about", "permanent": true },
+    { "source": "/landlords.html", "destination": "/", "permanent": true },
+    { "source": "/lettings.html", "destination": "/", "permanent": true },
+    { "source": "/management.html", "destination": "/", "permanent": true },
+    { "source": "/enquire.html", "destination": "/#contact", "permanent": true }
+  ]
+}

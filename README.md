@@ -1,15 +1,18 @@
-# Julian Mellor — one-page website
+# Julian Mellor Bentley Marketplace — V1
 
-A static one-page website for **Markets, Farmers' Markets, Events & Hospitality**.
+Static first working concept for julianmellor.co.uk.
 
-## Preview locally
+## Files
+- `index.html` — homepage with price-led Bentley browsing
+- `car.html` — sample clickable car listing
+- `styles.css` — full responsive visual system
+- `script.js` — lightweight interaction
 
-```bash
-python3 -m http.server 4173
-```
+## Direction
+The site is designed as a single-marque global marketplace and ownership ecosystem:
+Cars, Classics, Parts, Specialists, Events, Transport, Ownership, Sell and Sourcing.
 
-Then open `http://localhost:4173`.
+The current automotive imagery is intentionally represented as CSS concept art. Replace with dealer-supplied photography once real inventory is onboarded.
 
-## Deploy
-
-The site has no build step and can be deployed directly through Vercel. The included `vercel.json` redirects the retired property pages to the relevant section of the new homepage.
+## Deployment
+Can be deployed directly to Vercel as a static site with no build command.
